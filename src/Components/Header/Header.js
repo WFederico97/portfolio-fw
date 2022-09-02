@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import './Header.css'
 
@@ -10,18 +10,11 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" className="header" sticky="top">
                 <Navbar.Brand href="/" className="headerChild d-flex col-12 mx-auto m-3" >
-                    <div className="navbarIcon col-4 p-2">
-                        <img
-                            alt=""
-                            src="/Images/icons8-javascript.svg"
-                            className="jsIcon"
-                        />
-                    </div>
-                    <div className="navbarTitle col-4 text-center">
+                    <div className="navbarTitle col-6 text-center">
                         <h3>Federico Wuthrich</h3>
                     </div>
-                    <div className="navbarLinks col-4 d-flex gap-3 mx-auto">
-                        <Nav.Link as={Link} to={'#aboutMe'} className='aboutMeLink' >
+                    <div className="navbarLinks col-6 d-flex gap-3 mx-auto">
+                        <Nav.Link as={Link} to={'#about'} className='aboutMeLink' >
                             <p>
                                 Sobre Mi
                             </p>

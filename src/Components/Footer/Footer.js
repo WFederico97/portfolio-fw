@@ -14,7 +14,7 @@ const Footer = () => {
                     <hr />
                     <span  />
                     <Col className="col-2  ">
-                        <img src="./Images/icons8-argentina-64.png" alt="arg icon" style={{width: '3em', height: '3em'}} />
+                        <img className="img-fluid " src="./Images/icons8-argentina-64.png" alt="arg icon" style={{width: '3em', height: '3em'}} />
                     </Col>
                 </Row>
             </Container>
