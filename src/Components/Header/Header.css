@@ -1,0 +1,20 @@
+ .headerChild {
+    background-color: rgba(255, 0, 0, 0);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    columns: 12;
+}
+/*
+.header .headerChild {
+
+}
+.header .headerChild .navbarIcon {
+
+}
+.header .headerChild .navbarTitle h3 {
+
+}
+.header .headerChild .navbarLinks {
+
+} */

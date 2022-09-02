@@ -1,0 +1,33 @@
+.homeSection {
+    position: relative;
+    overflow: hidden;
+    padding: 15em;
+
+
+    
+}
+
+.homeSection h3  {
+    border: 3px #fff solid;
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+
+.homeSection p {
+    border: 3px #fff solid;
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+    font-size: 34px;
+}
+
+.mainBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
