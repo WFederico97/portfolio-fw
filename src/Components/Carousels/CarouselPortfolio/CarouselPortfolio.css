@@ -1,0 +1,14 @@
+.carouselCaption {
+    padding: 1em;
+    margin: 1em;
+    background-color: #ffffffa6;
+}
+
+.carouselCaption h3 {
+    color: #000000;
+    font-weight: bolder;
+}
+.carouselCaption p {
+    color: #000000;
+    font-weight: bold;
+}
