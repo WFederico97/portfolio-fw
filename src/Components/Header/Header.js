@@ -1,35 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import './Header.css'
+import i18n from "../../i18n";
+
 
 
 const Header = () => {
+    const [colorChange, setColorChange] = useState(false);
+
+    const ChangeNavbarColor = () => {
+        if (window.scrollY >= 80) {
+            setColorChange(true)
+        } else {
+            setColorChange(false)
+        }
+    };
+    window.addEventListener('scroll', ChangeNavbarColor)
     return (
         <>
-            <Navbar bg="dark" variant="dark" className="header" sticky="top">
-                <Navbar.Brand href="/" className="headerChild d-flex col-12 mx-auto m-3" >
-                    <div className="navbarTitle col-6 text-center">
+            <Navbar variant="dark" className={colorChange ? 'headerColorChanged' : "header"} sticky="top" expand='lg'>
+
+                <Navbar.Brand href="/" className=" d-flex col-12 mx-auto m-3" >
+                    <div className={colorChange ? 'navbarTitleChanged col-4 text-center' : 'navbarTitle col-4 text-center'}>
                         <h3>Federico Wuthrich</h3>
                     </div>
-                    <div className="navbarLinks col-6 d-flex gap-3 mx-auto">
-                        <Nav.Link as={Link} to={'#about'} className='aboutMeLink' >
+                    <div className={colorChange ? 'headerLinkColorChanged  d-flex col-4 d-flex gap-3 mx-auto ' : 'navbarLinks d-flex col-4 d-flex gap-3 mx-auto'}>
+                        <Nav.Link href="#about" className='aboutMeLink' >
                             <p>
-                                Sobre Mi
+                                {i18n.t('aboutNav')}
                             </p>
                         </Nav.Link>
-                        <Nav.Link as={Link} to={'#skills'} className='skillsLink' >
-                            <p>Skills</p>
+                        <Nav.Link href="#skills" className='skillsLink' >
+                            <p>{i18n.t('skillsH3')}</p>
                         </Nav.Link>
-                        <Nav.Link as={Link} to={'#proyects'} className='proyectsLink'>
-                            <p>Proyectos</p>
+                        <Nav.Link href="#proyects" className='proyectsLink'>
+                            <p>{i18n.t('proyectsH3')}</p>
                         </Nav.Link>
-                        <Nav.Link as={Link} to={'#contact'} className='contactLink'>
-                            <p>Contacto</p>
+                        <Nav.Link href="#contact" className='contactLink'>
+                            <p>{i18n.t('contactH4')}</p>
                         </Nav.Link>
                     </div>
+                    <div className="langs" opacity='1'>
+                            <a href="es"><button> <img src="./Images/icons8-spain-48.png" alt="es" className="españolLang" /> </button></a>
+                            <a href="en"><button> <img src="./Images/icons8-great-britain-48.png" alt="en" className="englishLang" /> </button></a>
+                        </div>
                 </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             </Navbar>
         </>
 

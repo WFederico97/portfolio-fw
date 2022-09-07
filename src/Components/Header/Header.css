@@ -1,20 +1,31 @@
- .headerChild {
-    background-color: rgba(255, 0, 0, 0);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    columns: 12;
+.langs button {
+  background: none;
+  border: transparent;
 }
-/*
-.header .headerChild {
-
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
 }
-.header .headerChild .navbarIcon {
-
+.header p,
+h3 {
+  color: #000;
 }
-.header .headerChild .navbarTitle h3 {
 
+.headerColorChanged {
+  background-color: #00000062;
+  transition: 2.5s all ease-in;
+  cursor: pointer;
 }
-.header .headerChild .navbarLinks {
-
-} */
+.headerLinkColorChanged {
+  color: #f0ad4e;
+  transition: 1.5s all ease;
+  cursor: pointer;
+}
+.navbarTitleChanged h3 {
+  color: #f0ad4e;
+  transition: 1.5s all ease;
+  cursor: pointer;
+}
