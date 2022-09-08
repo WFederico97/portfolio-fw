@@ -21,9 +21,9 @@ const Header = () => {
         <>
             <Navbar variant="dark" className={colorChange ? 'headerColorChanged' : "header"} sticky="top" expand='lg'>
 
-                <Navbar.Brand href="/" className=" d-flex col-12 mx-auto m-3" >
+                <Navbar.Brand  className=" d-flex col-12 mx-auto m-3" >
                     <div className={colorChange ? 'navbarTitleChanged col-4 text-center' : 'navbarTitle col-4 text-center'}>
-                        <h3>Federico Wuthrich</h3>
+                        <Nav.Link href="#home"><h3>Federico Wuthrich</h3></Nav.Link>  
                     </div>
                     <div className={colorChange ? 'headerLinkColorChanged  d-flex col-4 d-flex gap-3 mx-auto ' : 'navbarLinks d-flex col-4 d-flex gap-3 mx-auto'}>
                         <Nav.Link href="#about" className='aboutMeLink' >
