@@ -41,9 +41,7 @@
   padding: 10em;
   margin: 0;
 }
-.cardAbout {
-  border-color: #000 !important;
-}
+
 .aboutH1 {
     font-size: 3em;
     color: #f0ad4e;
@@ -56,13 +54,13 @@
     text-shadow: #9a8e24 1px 3px 6px;
 }
 .cardAbout .cardTitle {
-  background-color: #000;
+  background-color: transparent;
   text-align: left;
   padding: 1em;
 
 }
-.cardAbout .cardBody {
-  background-color: #000;
+.cardAbout body {
+  background-color: transparent;
 }
 
  .certBtns button  {
