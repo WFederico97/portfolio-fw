@@ -7,16 +7,16 @@ import './Footer.css'
 const Footer = () => {
     return (
         <>
-            <Container fluid className="footerInfo ">
-                <Row className=" justify-content-center mx-auto  col-12 d-flex p-1 ">
-                    <Col className="col-12 imgFooter">
+            <Container fluid className="footerInfo">
+                <Row>
+                    <Col className="imgFooter">
                         <img src="./Images/Banner-de-LinkedIn-FW.png" alt="fw banner" className="img-fluid banner"  />
                     </Col>
                     <hr />
                     <span />
-                    <Col className="col-6 footerText  ">
+                    <Col className="footerText">
                         <h6>© 2022 Federico W. </h6>
-                        <a href="#about"><img className="img-fluid " src="./Images/icons8-argentina-64.png" alt="arg icon" style={{ width: '10%', height: '5em' }} /></a>
+                        <a href="#about"><img className="img-fluid " src="./Images/icons8-argentina-64.png" alt="arg icon" /></a>
                     </Col>
                 </Row>
             </Container>

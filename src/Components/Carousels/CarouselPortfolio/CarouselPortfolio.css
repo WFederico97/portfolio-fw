@@ -16,3 +16,52 @@
     color: #000000;
     font-weight: bold;
 }
+
+.carouselCaption .carouselDeployIcon {
+    margin: 1em;
+    width: 2em;
+    height: 2em;
+    color: #000000;
+}
+.carouselCaption .carouselCodeIcon {
+    margin: 1em;
+    width: 2em;
+    height: 2em;
+    color: #000000;
+}
+
+@media (max-width: 375px) {
+    .carousel {
+        margin: 0;
+        padding: 0;
+    }
+    .carouselCaption {
+        padding: 1em;
+        margin: 1em;
+        background-color: #ffffffa6;
+    }
+    
+    .carouselCaption h3 {
+        font-size: 12px;
+        color: #000000;
+        font-weight: bolder;
+    }
+    .carouselCaption p {
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .carouselCaption .carouselDeployIcon  {
+        margin: 0;
+        width: 1.5em;
+        height: 1.5em;
+        color: #000000;
+    }
+    .carouselCaption .carouselCodeIcon {
+        margin: 0;
+        width: 1.5em;
+        height: 1.5em;
+        color: #000000;
+    }
+}

@@ -1,32 +1,121 @@
 .footerInfo {
-    background-color: #000000;
-    padding: 0;
-    margin: 0;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
 }
 .footerText h6 {
-    font-size: 2em;
-    text-align: center;
-    color: #f0ad4e;
+  font-size: 2em;
+  text-align: center;
+  color: #f0ad4e;
 }
 .imgFooter {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 .imgFooter .banner {
-    display: block;
-    border:1px solid rgba(255,255,255,0);
-    border-radius: 6%;
-    width: 100%;
-    height: 75%;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 6%;
+  width: 100%;
+  height: 75%;
 }
-.imgFooter:after{
-    content: "";
-    display: block;
-    width: 99.2%;
-    height: 75%;
-    border-radius: 6%;
-    background: radial-gradient( closest-side, rgba(255,255,255,0) 0%,rgba(255, 255, 255, 0.12) 69%,rgba(255, 255, 255, 0.268) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
+.imgFooter:after {
+  content: "";
+  display: block;
+  width: 99.2%;
+  height: 75%;
+  border-radius: 6%;
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.12) 69%,
+    rgba(255, 255, 255, 0.268) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width:760px){
+    .footerInfo {
+        background-color: #000000;
+        padding: 0;
+        margin: 0;
+        height: 30em;
+      }
+      .footerText h6 {
+        font-size: 2em;
+        text-align: center;
+        color: #f0ad4e;
+      }
+      .imgFooter {
+        display: inline-block;
+        position: relative;
+        height: 15em;
+      }
+      .imgFooter .banner {
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 12%;
+        width: 100%;
+        height: 100%;
+      }
+      .imgFooter:after {
+        content: "";
+        display: block;
+        width: 96%;
+        height: 100%;
+        border-radius: 12%;
+        background: radial-gradient(
+          closest-side,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.12) 69%,
+          rgba(255, 255, 255, 0.268) 100%
+        );
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
+
+@media screen and (min-width: 760px) and (max-width:768px){
+    .footerInfo {
+        background-color: #000000;
+        padding: 0;
+        margin: 0;
+        height: 30em;
+      }
+      .footerText h6 {
+        font-size: 2em;
+        text-align: center;
+        color: #f0ad4e;
+      }
+      .imgFooter {
+        display: inline-block;
+        position: relative;
+        height: 15em;
+      }
+      .imgFooter .banner {
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 12%;
+        width: 100%;
+        height: 100%;
+      }
+      .imgFooter:after {
+        content: "";
+        display: block;
+        width: 98%;
+        height: 100%;
+        border-radius: 12%;
+        background: radial-gradient(
+          closest-side,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.12) 69%,
+          rgba(255, 255, 255, 0.268) 100%
+        );
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
 }

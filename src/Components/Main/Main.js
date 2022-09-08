@@ -17,8 +17,8 @@ const Main = () => {
     return (
         <>
             {/*Home*/}
-            <div id="home" className="homeSection text-center">
-                <h3 className="homeSectionTitle  "
+            <Container fluid id="home" className="homeSection ">
+                <h3 className="homeSectionTitle    "
                     data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-offset="300"
@@ -28,7 +28,7 @@ const Main = () => {
                     {" { "}
                     {i18n.t("greetingHomeA")}
                     <p
-                        className="homeSectionParagraph"
+                        className="homeSectionParagraph "
                         data-aos="fade-right"
                         data-aos-duration="1500"
                         data-aos-offset="300"
@@ -40,16 +40,16 @@ const Main = () => {
 
                 <br />
                 <img
-                    className="mainBg img-fluid"
+                    className="mainBg "
                     src="./Images/nyBackground.jpg"
                     alt="nyc skyline"
                 />
-            </div>
+            </Container>
 
             {/* ABOUT ME */}
 
             <section id="about">
-                <Container fluid className="about m-0">
+                <Container fluid className="d-flex col-sm-12 about m-0">
                     <card className="cardAbout bg-transparent">
                         <header className="cardTitle ">
                             <h3 className="aboutH1   "
@@ -83,7 +83,7 @@ const Main = () => {
                             </div>
 
                             <div
-                                className="certBtns gap-3 col-6 mx-auto d-flex"
+                                className="certBtns mx-auto"
                                 data-aos="zoom-in-up"
                                 data-aos-duration="1500"
                                 data-aos-offset="300"
@@ -136,7 +136,7 @@ const Main = () => {
             <section id="skills">
                 <Container
                     fluid
-                    className="  skills col-12 d-flex row justify-content-center m-0 "
+                    className="  skills col-lg-12 d-flex row justify-content-center m-0 p-0 "
                 >
                     <div className="skillsHead col-6 ">
                         <h3>{i18n.t("skillsH3")}</h3>
@@ -164,14 +164,14 @@ const Main = () => {
             <section id="contact">
                 <Container
                     fluid
-                    className="contactoSection col-12 justify-content-center"
+                    className="contactoSection  "
                 >
-                    <div className="contactoSectionHeader text-center ">
+                    <div className="contactoSectionHeader  ">
                         <h4>{i18n.t("contactH4")}</h4>
                     </div>
                     <hr />
                     <div
-                        className="contactoSectionParagraph text-center"
+                        className="contactoSectionParagraph "
                         data-aos="zoom-in-up"
                         data-aos-duration="1500"
                         data-aos-offset="300"
@@ -180,7 +180,7 @@ const Main = () => {
                         <p>{i18n.t("contactP")}</p>
                     </div>
                     <br />
-                    <div className="socialMedia col-12 d-flex  justify-content-center">
+                    <div className="socialMedia ">
                         <a
                             href="https://www.linkedin.com/in/federico-wuthrich-668633164/"
                             target={"_blank"}

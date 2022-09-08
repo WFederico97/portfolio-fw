@@ -17,7 +17,7 @@ export const eng = {
     skillsH3: 'Skills',
 
     //Proyects section
-    proyectsH3: 'Proyects',
+    proyectsH3: 'Projects',
 
 
     //Contact Section

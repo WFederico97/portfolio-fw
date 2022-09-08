@@ -12,7 +12,7 @@ function CarouselPortfolio() {
 
     return (
         <>
-            <Carousel activeIndex={index} onSelect={handleSelect} style={{ height: '45em' }}>
+            <Carousel className='d-flex  col-sm-12' activeIndex={index} onSelect={handleSelect} >
                 <Carousel.Item>
                     <img
                         className="  img-fluid"
@@ -23,8 +23,8 @@ function CarouselPortfolio() {
                         <h3>Soragna Pizza e Pasta</h3>
                         <p>HTML5 CSS3 BOOTSTRAP </p>
                         <div>
-                            <a href='https://wfederico97.github.io/Soragna-Pizza-Js-Coder/' target={'_blank'} rel="noreferrer"  ><VscRocket style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /></a>
-                            <a href='https://github.com/WFederico97/Soragna-Pizza-Js-Coder' target={'_blank'} rel='noreferrer'><VscGithub style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /> </a>
+                            <a href='https://wfederico97.github.io/Soragna-Pizza-Js-Coder/' target={'_blank'} rel="noreferrer"  ><VscRocket className='carouselDeployIcon'  /></a>
+                            <a href='https://github.com/WFederico97/Soragna-Pizza-Js-Coder' target={'_blank'} rel='noreferrer'><VscGithub className='carouselCodeIcon'  /> </a>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -39,8 +39,8 @@ function CarouselPortfolio() {
                         <h3>Soragna Pizza e Pasta</h3>
                         <p>HTML5 CSS3 BOOTSTRAP & JAVASCRIPT</p>
                         <div>
-                            <a href='https://wfederico97.github.io/Soragna-Pizza-Js-Coder/' target={'_blank'} rel="noreferrer"  ><VscRocket style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /></a>
-                            <a href='https://github.com/WFederico97/Soragna-Pizza-Js-Coder' target={'_blank'} rel='noreferrer'><VscGithub style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /></a>
+                            <a href='https://wfederico97.github.io/Soragna-Pizza-Js-Coder/' target={'_blank'} rel="noreferrer"  ><VscRocket className='carouselDeployIcon'  /></a>
+                            <a href='https://github.com/WFederico97/Soragna-Pizza-Js-Coder' target={'_blank'} rel='noreferrer'><VscGithub className='carouselCodeIcon'  /></a>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -57,8 +57,8 @@ function CarouselPortfolio() {
                             REACT JS
                         </p>
                         <div>
-                            <a href='https://sya-mimate-v2.vercel.app' target={'_blank'} rel="noreferrer"  ><VscRocket style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /></a>
-                            <a href='https://github.com/WFederico97/sya-mimate-v2' target={'_blank'} rel='noreferrer'><VscGithub style={{ width: '3em', height: '3em', margin: '1em', color: '#000' }} /></a>
+                            <a href='https://sya-mimate-v2.vercel.app' target={'_blank'} rel="noreferrer"  ><VscRocket className='carouselDeployIcon'  /></a>
+                            <a href='https://github.com/WFederico97/sya-mimate-v2' target={'_blank'} rel='noreferrer'><VscGithub className='carouselCodeIcon'  /></a>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

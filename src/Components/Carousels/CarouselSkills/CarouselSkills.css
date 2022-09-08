@@ -1,0 +1,6 @@
+@media (min-width: 320px) and (max-width: 768px) { 
+    .figImage {
+        height: 5em;
+        width: 5em;
+    }
+}
