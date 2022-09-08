@@ -1,3 +1,4 @@
+
 .carousel {
     margin: 0;
     padding: 0;
@@ -29,39 +30,43 @@
     height: 2em;
     color: #000000;
 }
-
-@media (max-width: 375px) {
+@media  (min-width: 320px) and (max-width: 415px) {
     .carousel {
         margin: 0;
         padding: 0;
     }
     .carouselCaption {
-        padding: 1em;
-        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        height: 9em ;
+        width: 17em;
         background-color: #ffffffa6;
     }
     
     .carouselCaption h3 {
-        font-size: 12px;
+        font-size: 11px ;
         color: #000000;
         font-weight: bolder;
     }
     .carouselCaption p {
-        font-size: 10px;
+        font-size: 7px;
         color: #000000;
         font-weight: bold;
     }
 
     .carouselCaption .carouselDeployIcon  {
-        margin: 0;
-        width: 1.5em;
-        height: 1.5em;
+        margin: 1;
+        width: 1em;
+        height: 1em;
         color: #000000;
     }
     .carouselCaption .carouselCodeIcon {
-        margin: 0;
-        width: 1.5em;
-        height: 1.5em;
+        margin: 2;
+        width: 1em;
+        height: 1em;
         color: #000000;
     }
 }
