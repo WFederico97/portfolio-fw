@@ -62,6 +62,24 @@ function CarouselPortfolio() {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className=" img-fluid"
+                        src="./Images/coffeeholics-portfolio.png"
+                        alt="Fourth slide"
+                    />
+
+                    <Carousel.Caption className='carouselCaption'>
+                        <h3>Coffeeholics</h3>
+                        <p>
+                            REACT JS
+                        </p>
+                        <div>
+                            <a href='https://coffeeholics-delta.vercel.app' target={'_blank'} rel="noreferrer"  ><VscRocket className='carouselDeployIcon'  /></a>
+                            <a href='https://github.com/WFederico97/coffeeholics' target={'_blank'} rel='noreferrer'><VscGithub className='carouselCodeIcon'  /></a>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </>
     );
