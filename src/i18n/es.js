@@ -12,6 +12,7 @@ export const esp = {
     certJavascript: 'Certificado Javascript',
     certReact: 'Certificado React JS',
     certEng: 'Certificado Ingles c1',
+    certFront: 'Certificado Front End Developer',
     
     //Skills section 
     skillsH3: 'Tecnologias',

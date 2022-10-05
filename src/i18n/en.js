@@ -12,6 +12,7 @@ export const eng = {
     certJavascript: 'Download my Js Certificate',
     certReact: 'Download my React JS Certificate',
     certEng: 'Download my C1 english Certificate',
+    certFront: 'Download my Front End dev Certificate',
     
     //Skills section 
     skillsH3: 'Skills',
