@@ -90,7 +90,7 @@ const Main = () => {
                                 data-aos-easing="ease-in-sine"
                             >
                                 <a
-                                    href="https://drive.google.com/file/d/1y_UlFvRtI_t4Xgs5txLQ9aRtAHYucgwx/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1avnTOdcairwCo14zOPdZgT7ApCZqHKh0/view?usp=sharing"
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
@@ -99,7 +99,7 @@ const Main = () => {
                                     </button>
                                 </a>
                                 <a
-                                    href="https://www.coderhouse.com/certificados/62313533579172004be63618"
+                                    href="https://www.coderhouse.com/certificados/62313533579172004be63618?lang=en"
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
@@ -108,12 +108,30 @@ const Main = () => {
                                     </button>
                                 </a>
                                 <a
-                                    href="https://www.coderhouse.com/certificados/62a100e95bd8d6001973b015"
+                                    href="https://www.coderhouse.com/certificados/62a100e95bd8d6001973b015?lang=en"
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
                                     <button className="jsDownloadBtn ">
                                         {i18n.t("certJavascript")} <BsCloudDownload />{" "}
+                                    </button>
+                                </a>
+                                <a
+                                    href="https://www.coderhouse.com/certificados/6333e2dd6e35bf000e34d08a?lang=en"
+                                    target={"_blank"}
+                                    rel="noreferrer"
+                                >
+                                    <button className="reactDownloadBtn  ">
+                                        {i18n.t("certReact")} <BsCloudDownload />{" "}
+                                    </button>
+                                </a>
+                                <a
+                                    href="https://www.coderhouse.com/certificados/6333e2dd6e35bf000e34d08d?lang=en"
+                                    target={"_blank"}
+                                    rel="noreferrer"
+                                >
+                                    <button className="frontDownloadBtn  ">
+                                        {i18n.t("certFront")} <BsCloudDownload />{" "}
                                     </button>
                                 </a>
                                 <a
