@@ -90,7 +90,7 @@ const Main = () => {
                                 data-aos-easing="ease-in-sine"
                             >
                                 <a
-                                    href="https://drive.google.com/file/d/1avnTOdcairwCo14zOPdZgT7ApCZqHKh0/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1sEK31dJjinIONNPo-oVKs-JGmHnfWhr_/view?usp=share_link"
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
