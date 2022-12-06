@@ -1,6 +1,6 @@
 
 <h1 align="center">Welcome to my repository MD</h1>
-<h3 align="center">This portfolio was coded with love by me , for showing all my projects to everyone. Any suggestion will be more than welcome, please , get in touch with me clicking on my social network badges below</h3>
+<h3 align="center">This portfolio was coded with love by me , to showing all my projects to everyone. Any suggestion will be more than welcome, please , get in touch with me clicking on my social network badges below</h3>
 - 📫 How to reach me **wuthrich09@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
